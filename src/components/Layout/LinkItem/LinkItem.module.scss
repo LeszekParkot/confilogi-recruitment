@@ -1,0 +1,32 @@
+@import "components/variables.scss";
+
+.linkItem{
+   display: block;
+   padding: 1.5rem 2.5rem;
+   transition: color 0.3s;
+   color: $blue-dark;
+   letter-spacing: 0.1rem;
+   text-decoration: none;
+   text-transform: uppercase;
+   &:hover{
+      color: $red-light;
+      text-decoration: none;
+   }
+}
+
+.loginItem{
+   margin-left: 2.5rem;
+   a{
+      padding: 1.2rem 3.5rem;
+      transition: background-color 0.3s;
+      border: $red-light;
+      border-radius: 0.5rem;
+      background-color: $red-light;
+      color: $white;
+      @extend.linkItem;
+      &:hover{
+         background-color: $white;
+      }
+   }
+}
+

@@ -1,0 +1,57 @@
+@import "components/variables.scss";
+
+// common for: navItem, navItemActive
+.item{
+   display: flex;
+   transition: all 0.3s;
+   flex-grow: 1;
+   flex-direction: column;
+}
+
+.navItem{
+   border-bottom: 0.1rem solid $grey;
+   @extend.item;
+}
+
+.navItemActive{
+   border-bottom: 0.1rem solid $red-light;
+   @media screen and (max-width: 375px) {
+      border-color: $grey;
+   }
+   @extend.item;
+   button{
+      color: $blue-dark;
+   }
+}
+
+.navBtn{
+   width: 100%;
+   height: 100%;
+   padding: 1rem 0;
+   transition: all 0.3s;
+   border: none;
+   outline: none !important;
+   background: none;
+   color: $grey;
+}
+
+// common for: emVisible, emInvisible
+.emphase{
+   min-height: 0.2rem;
+   @media screen and (max-width: 375px) {
+      width: 14rem;
+      margin: auto;
+   }
+}
+
+.emVisible{
+   min-height: 0.2rem;
+   background-color: $red-light;
+   @extend.emphase;
+}
+
+.emInvisible{
+   min-height: 0.2rem;
+   background-color: transparent;
+   @extend.emphase;
+}

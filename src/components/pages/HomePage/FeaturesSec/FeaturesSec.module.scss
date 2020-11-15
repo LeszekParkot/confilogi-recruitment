@@ -1,0 +1,29 @@
+@import "components/variables.scss";
+
+.ilusWrapper{
+   position: relative;
+   margin: 8rem 0;
+   z-index: 2;
+   @media screen and (max-width: 375px) {
+      min-height: 29.5rem;
+   }
+   svg{
+      width: 100%;
+      height: auto;
+   }
+   // TODO: sprawdź jak kolorować
+   // svg{
+   //    fill: inherit;
+   //    rect{
+   //       fill: red !important;
+   //    }
+   // }
+}
+
+.art{
+   align-self: center;
+}
+
+.featuresSec{
+   margin-bottom: 10rem;
+}

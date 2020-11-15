@@ -1,0 +1,16 @@
+@import "components/variables.scss";
+
+
+.titlePrim{
+   margin-bottom: 2.5rem;
+   font-size: $title-prim;
+   font-weight: bold;
+   @media screen and (max-width: 375px) {
+      font-size: 3rem;
+   }
+}
+
+.titleSec{
+   margin-bottom: 2.5rem;
+   font-size: $title-sec;
+}

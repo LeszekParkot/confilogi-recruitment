@@ -1,0 +1,13 @@
+@import "components/variables.scss";
+
+.navWrapper{
+   display: flex;
+   max-width: 75rem;
+   margin: auto;
+   padding: 0;
+   list-style-type: none;
+   @media screen and (max-width: 375px){
+      border-top: 0.1rem solid $grey;
+      flex-direction: column;
+   }
+}

@@ -1,0 +1,9 @@
+@import "components/variables.scss";
+
+.text{
+   margin-bottom: 2.5rem;
+   color: $grey;
+   @media screen and (max-width: 375px) {
+      font-size: 1.6rem;
+   }
+}

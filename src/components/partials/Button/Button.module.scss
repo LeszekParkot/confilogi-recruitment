@@ -1,0 +1,37 @@
+@import "components/variables.scss";
+
+.button{
+   padding: 1.2rem 2rem;
+   transition: all 0.3s;
+   border-radius: 1rem;
+   @media screen and (max-width: 375px) {
+      padding: 1.2rem 1.5rem;
+      font-size: 1.4rem;
+   }
+}
+
+.buttonDark{
+   border: 0.3rem solid $blue-light;
+   background-color: $blue-light;
+   color: $white;
+   @extend.button;
+   &:hover{
+      background-color: $white;
+      color: $blue-light;
+      box-shadow: 0 0.4rem 0.4rem 0 rgba($blue-light, 0.3);
+   }
+}
+
+.buttonLight{
+   margin-left: 1.5rem;
+   border: 0.3rem solid $grey-light;
+   background-color: $grey-light;
+   color: $grey-dark;
+   @extend.button;
+   &:hover{
+      border: 0.3rem solid $grey-dark;
+      background-color: $white;
+      color: $grey-dark;
+      box-shadow: 0 0.4rem 0.4rem 0 rgba($grey-dark, 0.3);
+   }
+}

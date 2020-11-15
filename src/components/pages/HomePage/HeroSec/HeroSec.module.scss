@@ -1,0 +1,51 @@
+@import "components/variables.scss";
+
+.section{
+   position: relative;
+   margin-bottom: 10rem;
+}
+.bgFigure{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   width: 40vw;
+   height: 32rem;
+   border-radius: 0 0 0 10rem;
+   background-color: $blue-light;
+   @media screen and (max-width: 375px) {
+      top: 5rem;
+      bottom: unset;
+      width: 73vw;
+      height: 17rem;
+   }
+}
+.contentWrapper{
+   display: flex;
+   position: relative;
+   z-index: 1;
+}
+.imgHero{
+   width: 100%;
+   height: auto;
+
+}
+.article{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   @media screen and (max-width: 375px) {
+      margin-top: 5rem;
+      text-align: center;
+      order: 1;
+   }
+}
+
+.btnsWrapper{
+   display: flex;
+   @media screen and (max-width: 375px) {
+      button{
+         display: block;
+         flex-grow: 1;
+      }
+   }
+}

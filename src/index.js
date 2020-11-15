@@ -1,6 +1,6 @@
 import React from "react";
+import App from "components/App.js";
 import ReactDOM from "react-dom";
-import App from "./components/app/App";
 
 
 ReactDOM.render(
@@ -9,4 +9,3 @@ ReactDOM.render(
    </React.StrictMode>,
    document.getElementById("root")
 );
-

@@ -1,0 +1,27 @@
+@import "components/variables.scss";
+
+// .slideRow{
+//    @media screen and (max-width: 375px) {
+
+//    }
+// }
+
+.slideWrapper{
+   position: relative;
+}
+
+.bgFigure{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 40vw;
+   height: 32rem;
+   border-radius: 0 0 10rem 0;
+   background-color: $blue-light;
+   @media screen and (max-width: 375px) {
+      top: 35%;
+      bottom: unset;
+      width: 73vw;
+      height: 17rem;
+   }
+}
