@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/confilogi-recruitment/static/css/main.7fb72de1.chunk.css",
+    "main.js": "/confilogi-recruitment/static/js/main.1cd97266.chunk.js",
+    "main.js.map": "/confilogi-recruitment/static/js/main.1cd97266.chunk.js.map",
+    "runtime-main.js": "/confilogi-recruitment/static/js/runtime-main.324aa6ab.js",
+    "runtime-main.js.map": "/confilogi-recruitment/static/js/runtime-main.324aa6ab.js.map",
+    "static/css/2.6414bb7b.chunk.css": "/confilogi-recruitment/static/css/2.6414bb7b.chunk.css",
+    "static/js/2.8860ed34.chunk.js": "/confilogi-recruitment/static/js/2.8860ed34.chunk.js",
+    "static/js/2.8860ed34.chunk.js.map": "/confilogi-recruitment/static/js/2.8860ed34.chunk.js.map",
+    "index.html": "/confilogi-recruitment/index.html",
+    "precache-manifest.8021c51b73f27c7cb329231f49302597.js": "/confilogi-recruitment/precache-manifest.8021c51b73f27c7cb329231f49302597.js",
+    "service-worker.js": "/confilogi-recruitment/service-worker.js",
+    "static/css/2.6414bb7b.chunk.css.map": "/confilogi-recruitment/static/css/2.6414bb7b.chunk.css.map",
+    "static/css/main.7fb72de1.chunk.css.map": "/confilogi-recruitment/static/css/main.7fb72de1.chunk.css.map",
+    "static/js/2.8860ed34.chunk.js.LICENSE.txt": "/confilogi-recruitment/static/js/2.8860ed34.chunk.js.LICENSE.txt",
+    "static/media/icon-arrow.080348e5.svg": "/confilogi-recruitment/static/media/icon-arrow.080348e5.svg",
+    "static/media/icon-close.8132811b.svg": "/confilogi-recruitment/static/media/icon-close.8132811b.svg",
+    "static/media/icon-hamburger.e3defca1.svg": "/confilogi-recruitment/static/media/icon-hamburger.e3defca1.svg",
+    "static/media/illustration-features-tab-1.25a23733.svg": "/confilogi-recruitment/static/media/illustration-features-tab-1.25a23733.svg",
+    "static/media/illustration-features-tab-2.11b0ec33.svg": "/confilogi-recruitment/static/media/illustration-features-tab-2.11b0ec33.svg",
+    "static/media/illustration-features-tab-3.7f696303.svg": "/confilogi-recruitment/static/media/illustration-features-tab-3.7f696303.svg",
+    "static/media/illustration-hero.dfa0cd82.svg": "/confilogi-recruitment/static/media/illustration-hero.dfa0cd82.svg",
+    "static/media/logo-bookmark.53989d2a.svg": "/confilogi-recruitment/static/media/logo-bookmark.53989d2a.svg",
+    "static/media/logo-chrome.3e1ab00b.svg": "/confilogi-recruitment/static/media/logo-chrome.3e1ab00b.svg",
+    "static/media/logo-firefox.e5023c2b.svg": "/confilogi-recruitment/static/media/logo-firefox.e5023c2b.svg",
+    "static/media/logo-opera.3d8f7bcc.svg": "/confilogi-recruitment/static/media/logo-opera.3d8f7bcc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.324aa6ab.js",
+    "static/css/2.6414bb7b.chunk.css",
+    "static/js/2.8860ed34.chunk.js",
+    "static/css/main.7fb72de1.chunk.css",
+    "static/js/main.1cd97266.chunk.js"
+  ]
+}
