@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/confilogi-recruitment/static/css/main.7fb72de1.chunk.css",
-    "main.js": "/confilogi-recruitment/static/js/main.1cd97266.chunk.js",
-    "main.js.map": "/confilogi-recruitment/static/js/main.1cd97266.chunk.js.map",
+    "main.js": "/confilogi-recruitment/static/js/main.dbd45a9e.chunk.js",
+    "main.js.map": "/confilogi-recruitment/static/js/main.dbd45a9e.chunk.js.map",
     "runtime-main.js": "/confilogi-recruitment/static/js/runtime-main.324aa6ab.js",
     "runtime-main.js.map": "/confilogi-recruitment/static/js/runtime-main.324aa6ab.js.map",
     "static/css/2.6414bb7b.chunk.css": "/confilogi-recruitment/static/css/2.6414bb7b.chunk.css",
-    "static/js/2.8860ed34.chunk.js": "/confilogi-recruitment/static/js/2.8860ed34.chunk.js",
-    "static/js/2.8860ed34.chunk.js.map": "/confilogi-recruitment/static/js/2.8860ed34.chunk.js.map",
+    "static/js/2.deacd180.chunk.js": "/confilogi-recruitment/static/js/2.deacd180.chunk.js",
+    "static/js/2.deacd180.chunk.js.map": "/confilogi-recruitment/static/js/2.deacd180.chunk.js.map",
     "index.html": "/confilogi-recruitment/index.html",
-    "precache-manifest.8021c51b73f27c7cb329231f49302597.js": "/confilogi-recruitment/precache-manifest.8021c51b73f27c7cb329231f49302597.js",
+    "precache-manifest.9bbf2adc51d21094edb20f1f96140559.js": "/confilogi-recruitment/precache-manifest.9bbf2adc51d21094edb20f1f96140559.js",
     "service-worker.js": "/confilogi-recruitment/service-worker.js",
     "static/css/2.6414bb7b.chunk.css.map": "/confilogi-recruitment/static/css/2.6414bb7b.chunk.css.map",
     "static/css/main.7fb72de1.chunk.css.map": "/confilogi-recruitment/static/css/main.7fb72de1.chunk.css.map",
-    "static/js/2.8860ed34.chunk.js.LICENSE.txt": "/confilogi-recruitment/static/js/2.8860ed34.chunk.js.LICENSE.txt",
+    "static/js/2.deacd180.chunk.js.LICENSE.txt": "/confilogi-recruitment/static/js/2.deacd180.chunk.js.LICENSE.txt",
     "static/media/icon-arrow.080348e5.svg": "/confilogi-recruitment/static/media/icon-arrow.080348e5.svg",
     "static/media/icon-close.8132811b.svg": "/confilogi-recruitment/static/media/icon-close.8132811b.svg",
     "static/media/icon-hamburger.e3defca1.svg": "/confilogi-recruitment/static/media/icon-hamburger.e3defca1.svg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.324aa6ab.js",
     "static/css/2.6414bb7b.chunk.css",
-    "static/js/2.8860ed34.chunk.js",
+    "static/js/2.deacd180.chunk.js",
     "static/css/main.7fb72de1.chunk.css",
-    "static/js/main.1cd97266.chunk.js"
+    "static/js/main.dbd45a9e.chunk.js"
   ]
 }
