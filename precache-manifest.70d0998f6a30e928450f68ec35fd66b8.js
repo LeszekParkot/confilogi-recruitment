@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c9c0298e1a1bec987db8ce8f79e1b6d",
+    "revision": "6121baed6dec3f4c724dc6da0c46eff7",
     "url": "/confilogi-recruitment/index.html"
   },
   {
-    "revision": "73ca91b9d81d2b48831f",
+    "revision": "64d150c28ad3878873d3",
     "url": "/confilogi-recruitment/static/css/2.6414bb7b.chunk.css"
   },
   {
-    "revision": "8bd874e0063c8459c86e",
-    "url": "/confilogi-recruitment/static/css/main.7fb72de1.chunk.css"
+    "revision": "5e58830b8cc21ecd2199",
+    "url": "/confilogi-recruitment/static/css/main.73198c96.chunk.css"
   },
   {
-    "revision": "73ca91b9d81d2b48831f",
-    "url": "/confilogi-recruitment/static/js/2.deacd180.chunk.js"
+    "revision": "64d150c28ad3878873d3",
+    "url": "/confilogi-recruitment/static/js/2.81f7e937.chunk.js"
   },
   {
     "revision": "ac27d415db6a8f4ccefe45d91d40e399",
-    "url": "/confilogi-recruitment/static/js/2.deacd180.chunk.js.LICENSE.txt"
+    "url": "/confilogi-recruitment/static/js/2.81f7e937.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8bd874e0063c8459c86e",
-    "url": "/confilogi-recruitment/static/js/main.dbd45a9e.chunk.js"
+    "revision": "5e58830b8cc21ecd2199",
+    "url": "/confilogi-recruitment/static/js/main.cd2e8359.chunk.js"
   },
   {
     "revision": "77c35db4da8576d3cdac",
@@ -36,8 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/confilogi-recruitment/static/media/icon-close.8132811b.svg"
   },
   {
+    "revision": "ba45f6788c38e8a4fc487eab6847a365",
+    "url": "/confilogi-recruitment/static/media/icon-error.ba45f678.svg"
+  },
+  {
+    "revision": "c24c1904c0c62485f4200c3a49a45a27",
+    "url": "/confilogi-recruitment/static/media/icon-facebook.c24c1904.svg"
+  },
+  {
     "revision": "e3defca190ae3f2aaeedefe79c125bd6",
     "url": "/confilogi-recruitment/static/media/icon-hamburger.e3defca1.svg"
+  },
+  {
+    "revision": "a4daae10e6bd237b96908d16566647e2",
+    "url": "/confilogi-recruitment/static/media/icon-twitter.a4daae10.svg"
   },
   {
     "revision": "25a237330ac7fab409f2b5833363ae97",
