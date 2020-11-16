@@ -12,6 +12,16 @@
 }
 
 .joined{
+   margin-top: 3rem;
+   letter-spacing: 0.3rem;
    text-align: center;
    text-transform: uppercase;
+}
+.text{
+   margin: 3rem 0;
+   font-size: 4rem;
+   text-align: center;
+   @media screen and (max-width: 375px) {
+   font-size: 3rem;
+   }
 }

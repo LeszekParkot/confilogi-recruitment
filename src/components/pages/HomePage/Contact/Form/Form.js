@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { ReactComponent as IconError } from "assets/icons/icon-error.svg";
 import { inputWrapper, inputItem, input, errorMessage, form, iconError, btnSubmit, errorInputWrapper } from "./Form.module.scss";
-import styles from "./Form.module.scss";
-
 
 
 class Form extends Component {
@@ -20,7 +18,7 @@ class Form extends Component {
 
    handleSubmit = (e) => {
       e.preventDefault();
-      if (this.state.email !== "" && this.state.email.includes("@")) {
+      if ((this.state.email !== "") && this.state.email.includes("@")) {
          this.setState({
             isEmailCorrect: true
          })
