@@ -1,0 +1,63 @@
+@import "components/variables.scss";
+
+.form{
+   display: flex;
+   align-items: flex-start;
+   flex-grow: 1;
+   @media screen and (max-width: 375px) {
+      flex-direction: column;
+   }
+}
+.inputWrapper{
+   margin-right: 3rem;
+   margin-bottom: 1rem;
+   padding: 0.3rem;
+   border-radius: 0.5rem;
+   background-color: transparent;
+   flex-grow: 1;
+   @media screen and (max-width: 375px) {
+      width: 100%;
+      margin-right: 0;
+   }
+}
+.errorInputWrapper{
+   background-color: $red-light;
+   @extend.inputWrapper;
+}
+.inputItem{
+   display: flex;
+   padding-right: 1.5rem;
+   border-radius: 0.5rem;
+   background-color: $white;
+   align-items: center;
+   justify-content: space-between;
+}
+.input{
+   margin-left: 1rem;
+   padding: 1rem 0.5rem;
+   border: none;
+   outline: none;
+   flex-grow: 1;
+}
+.errorMessage{
+   padding: 0.7rem 1rem;
+   font-style: italic;
+}
+.iconError{
+   display: none;
+}
+.btnSubmit{
+   padding: 0.7rem 1.2rem;
+   transition: all 0.3s;
+   border: 0.3rem solid $red-light;
+   border-radius: 0.5rem;
+   background-color: $red-light;
+   color: $white;
+   @media screen and (max-width: 375px) {
+      width: 100%;
+   }
+   &:hover{
+      background-color: $white;
+      color: $red-light;
+   }
+}

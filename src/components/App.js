@@ -5,13 +5,13 @@ import ContactPage from "components/pages/ContactPage";
 import FeaturesPage from "components/pages/FeaturesPage";
 import HomePage from "components/pages/HomePage/HomePage";
 import PricingPage from "components/pages/PricingPage";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import "components/variables.scss";
 
 
 function App() {
    return (
-      <BrowserRouter>
+      <HashRouter>
          <>
             <Switch>
                <Route
@@ -29,7 +29,7 @@ function App() {
                   component={ContactPage} />
             </Switch>
          </>
-      </BrowserRouter>
+      </HashRouter>
    );
 }
 

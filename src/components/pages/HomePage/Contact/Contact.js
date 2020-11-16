@@ -1,19 +1,19 @@
 import React from "react";
+import Form from "components/pages/HomePage/Contact/Form/Form";
 import Header from "components/partials/Header/Header"
-import { contactSec, joined } from "./Contact.module.scss";
+import { contactSec, joined, contentWrapper } from "./Contact.module.scss";
 
 
 class Contact extends React.Component {
 
-   // TODO: zmień wartość stanu na numer
    state = {
-      joined: "35.000"
+      joined: 35000 + "+"
    }
 
    componentDidMount() {
       setTimeout(() => {
          this.setState({
-            joined: "0"
+            joined: 0
          })
       }, 20000);
    }
@@ -23,12 +23,18 @@ class Contact extends React.Component {
       return (
          <section className={contactSec}>
             <div className="container">
-               <p className={joined}>
-                  {this.state.joined}+ already joined
-               </p>
-               <Header>
-                  Stay up-to-date with what we're doing
-               </Header>
+               <div className={contentWrapper}>
+
+                  <p className={joined}>
+                     {this.state.joined.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1.")} already joined
+                  </p>
+                  <Header>
+                     Stay up-to-date with what we're doing
+                  </Header>
+
+                  <Form />
+
+               </div>
             </div>
          </section>
       );

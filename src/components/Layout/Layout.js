@@ -12,11 +12,7 @@ import { NavTopHeader, linksWrapper, showNav } from "./Layout.module.scss";
 
 function Layout({ children, isOpen }) {
 
-
    console.log(isOpen);
-
-   const x = 30000000;
-   console.log(x.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1."));
 
    return (
       <>
