@@ -1,6 +1,13 @@
-.headerLogo{
-   flex-grow: 1;
-}
-// .mobile{
+@import "components/variables.scss";
 
-// }
+.filled{
+   & > g > path{
+      fill: $white;
+   }
+   path{
+      fill: $blue-dark;
+   }
+   circle{
+      fill: $white;
+   }
+}

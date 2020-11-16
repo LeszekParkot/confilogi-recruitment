@@ -29,7 +29,7 @@ class HomePage extends React.Component {
    render() {
       return (
          <Layout
-            open={this.closeMobileNav}
+            open={this.openMobileNav}
             close={this.closeMobileNav}
             isOpen={this.state.isMobileNavOpen}>
             <main>

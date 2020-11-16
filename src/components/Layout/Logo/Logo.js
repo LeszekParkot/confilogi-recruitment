@@ -2,15 +2,13 @@ import React from "react";
 import { ReactComponent as LogoBookmark } from "assets/logos/logo-bookmark.svg";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import { headerLogo } from "./Logo.module.scss";
+import { filled } from "./Logo.module.scss";
 
 
-function Logo({ header }) {
+function Logo({ open }) {
    return (
-      <Link
-         className={header ? headerLogo : null}
-         to="/">
-         <LogoBookmark />
+      <Link to="/">
+         <LogoBookmark className={open ? filled : null} />
       </Link>
    );
 }

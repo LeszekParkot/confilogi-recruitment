@@ -5,8 +5,8 @@ import Layout from "components/Layout/Layout.js"
 function PricingPage() {
    return (
       <div>
-         <h1>Pricing page.</h1>
          <Layout />
+         <h1>Pricing page.</h1>
       </div>
    );
 }
